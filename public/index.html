@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>github-get</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <!-- include css files -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- include javascript files -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script
+    src="https://gist.githubusercontent.com/developius/903a8876e6991e353e4b/raw/abd52324d5e53d120484f0aca8805553a11e6ea5/GitHub-stats.js">
+  </script>
+
+  <!-- set icon file -->
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+
+  <title>github-get</title>
+</head>
+
+<body>
+  <div class="container">
     <noscript>
-      <strong>We're sorry but github-get doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>We're sorry but github-get doesn't work properly without JavaScript enabled. Please enable it to
+        continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
-  </body>
+  </div>
+</body>
+
 </html>
